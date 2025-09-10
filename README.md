@@ -27,13 +27,14 @@ A compact, production-focused Python agent that connects a mini-PC to an Electro
 
 # Table of contents
 
-1. [Architecture & main modules](#architecture--main-modules)
-2. [How it works (brief)](#how-it-works-brief)
-3. [Install & run](#install--run)
-4. [Config / .env example](#config--env-example)
-5. [Common use cases](#common-use-cases)
-6. [Fault tolerance & security](#fault-tolerance--security)
-7. [License & contact](#license--contact)
+1. [Architecture & main modules](#architecture--main-modules-%EF%B8%8F)
+2. [How it works (brief)](#how-it-works-brief-)
+3. [Install & run](#install--run-%EF%B8%8F)
+4. [Config / .env example](#config--env-example-)
+5. [Common use cases](#common-use-cases--examples-%EF%B8%8F)
+6. [Fault tolerance & security](#fault-tolerance--security-%EF%B8%8F)
+7. [License](#license)
+8. [About Me](#about-me)
 
 ---
 
@@ -192,8 +193,9 @@ class ConnectionManager:
             await self.send(payload, ws)
 ```
 
-**Demo** — Here is a small demo video that shows how it works: 
-[Demo-video](./demo/video.mp4)
+**Demo** — Here is a small demo video that shows how it works:
+
+* [Demo-video](./demo/video.mp4)
 
 ---
 
@@ -206,11 +208,16 @@ class ConnectionManager:
 
 ---
 
-# License & Contact
+# License
 
 * **License:** This project is licensed under the MIT License.
-* **About Me:** 
+
+---
+
+# About Me
+
 * 📧 Email: iliaromanovich33@gmail.com
-* 📂 Portfolio (in English): [Resume-en](https://github.com/mdedz/Resume-en)
-* 📂 Portfolio (in Russian): [Resume-ru](https://github.com/mdedz/Resume-ru)
+* 📂 Portfolio (in English): [Resume in English](https://github.com/mdedz/Resume-en)
+* 📂 Portfolio (in Russian): [Resume in Russian](https://github.com/mdedz/Resume-ru)
+
 ---
