@@ -2,7 +2,7 @@
 
 **What this repo does**
 
-A compact, production-focused Python agent that connects a mini-PC to an Electronic Gaming Machine (EGM) over the SAS protocol. It performs low-level serial communication, polls meters and events, sends control commands (AFT/credits, jackpot), persists transactions to MS SQL and receives secure actions via WebSocket.There is also [https://github.com/mdedz/sas_comm_py](https://github.com/mdedz/sas_comm_py.git) I made! 
+A compact, production-focused Python agent that connects a mini-PC to an Electronic Gaming Machine (EGM) over the SAS protocol. It performs low-level serial communication, polls meters and events, sends control commands (AFT/credits, jackpot), persists transactions to MS SQL and receives secure actions via WebSocket.There is also [robust pip package](https://github.com/mdedz/sas_comm_py.git) I made! 
 
 ---
 
@@ -193,7 +193,7 @@ class ConnectionManager:
 ```
 
 **Demo** — Here is a small demo video that shows how it works: 
-[Demo-video](./sascomm/video.mp4)
+[Demo-video](./demo/video.mp4)
 
 ---
 
@@ -209,7 +209,8 @@ class ConnectionManager:
 # License & Contact
 
 * **License:** This project is licensed under the MIT License.
-* **Contact:** 📧 iliaromanovich33@gmail.com
-               📂 Portfolio (in English): [Resume-en](https://github.com/mdedz/Resume-en)
-               📂 Portfolio (in Russian): [Resume-ru](https://github.com/mdedz/Resume-ru)
+* **About Me:** 
+* 📧 Email: iliaromanovich33@gmail.com
+* 📂 Portfolio (in English): [Resume-en](https://github.com/mdedz/Resume-en)
+* 📂 Portfolio (in Russian): [Resume-ru](https://github.com/mdedz/Resume-ru)
 ---
