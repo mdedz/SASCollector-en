@@ -1,0 +1,8 @@
+{
+  "db_driver": "{ODBC Driver 18 for SQL Server}",
+  "com_port": "/dev/ttyS3",
+  "baudrate": 19200,
+  "address": 1,
+  "wakeup_bit": 128
+  }
+  

@@ -1,0 +1,43 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Logs
+*.log
+
+# Docker-related
+Dockerfile
+docker-compose.yml
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+
+# Git
+.git/
+.gitignore
+
+# Coverage and test reports
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/

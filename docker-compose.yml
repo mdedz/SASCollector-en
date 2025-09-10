@@ -1,0 +1,12 @@
+services:
+  collector:
+    build: .
+    container_name: collector
+    command: python -m tests.test_collector 
+    volumes:
+      - .:/app
+    restart: on-failure
+    environment:
+      - WS_SERVER_URL=ws://host.docker.internal:8000/ws/test_client
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

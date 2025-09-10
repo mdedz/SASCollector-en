@@ -1,0 +1,5 @@
+pyodbc
+pyserial
+websockets
+python-dotenv
+pytest
