@@ -1,6 +1,6 @@
 # Collector — SAS Slot Machine Client 🚀
 
-[🇬🇧 English](./README.md)
+[English](./README.md)
 
 **Что делает этот репозиторий**
 
