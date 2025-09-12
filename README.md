@@ -184,7 +184,7 @@ class ConnectionManager:
 
 **Demo** — Here is a small demo video that shows how it works:
 
-* [Demo-video](./demo/video.gif)
+* [Demo-video](https://www.youtube.com/watch?v=Y_qeEQYPn6A)
 
 ---
 
