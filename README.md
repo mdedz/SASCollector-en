@@ -1,12 +1,14 @@
 # Collector — SAS Slot Machine Client 🚀
 
+[🇷🇺 Русский](./README.ru.md)
+
 **What this repo does**
 
 A compact, production-focused Python agent that connects a mini-PC to an Electronic Gaming Machine (EGM) over the SAS protocol. It performs low-level serial communication, polls meters and events, sends control commands (AFT/credits, jackpot), persists transactions to MS SQL and receives secure actions via WebSocket.There is also [robust pip package](https://github.com/mdedz/sas_comm_py.git) I made! 
 
 ---
 
-# TL;DR for recruiters 🧾
+# TL;DR 🧾
 
 * **Language:** Python 3.11+
 * **Primary skills demonstrated:** low-level serial integrations (RS-232 / USB-Serial), binary protocols (BCD, CRC16-Kermit), robust DB interaction (pyodbc + retry/queue), concurrent and async integration (threads + asyncio/websockets), secure messaging (HMAC signature), production logging and resilience.
@@ -22,19 +24,6 @@ A compact, production-focused Python agent that connects a mini-PC to an Electro
 * `CreditSender` builds AFT (Automated Funds Transfer) commands with BCD amounts, flags, transaction IDs and expiration handling.
 * Reliable DB writes with JSON-backed queue when MS SQL is unreachable and background reconnection.
 * WebSocket client with HMAC-signed payload verification for remote commands (e.g. jackpot).
-
----
-
-# Table of contents
-
-1. [Architecture & main modules](#architecture--main-modules-%EF%B8%8F)
-2. [How it works (brief)](#how-it-works-brief-)
-3. [Install & run](#install--run-%EF%B8%8F)
-4. [Config / .env example](#config--env-example-)
-5. [Common use cases](#common-use-cases--examples-%EF%B8%8F)
-6. [Fault tolerance & security](#fault-tolerance--security-%EF%B8%8F)
-7. [License](#license)
-8. [About Me](#about-me)
 
 ---
 
@@ -195,7 +184,7 @@ class ConnectionManager:
 
 **Demo** — Here is a small demo video that shows how it works:
 
-* [Demo-video](./demo/video.mp4)
+* [Demo-video](./demo/video.gif)
 
 ---
 
