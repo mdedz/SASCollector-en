@@ -206,5 +206,3 @@ class ConnectionManager:
 # Обо мне
 
 * 📧 Email: iliaromanovich33@gmail.com  
-* 📂 Портфолио (английский): [Resume in English](https://github.com/mdedz/Resume-en)  
-* 📂 Портфолио (русский): [Resume in Russian](https://github.com/mdedz/Resume-ru)
